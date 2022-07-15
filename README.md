@@ -12,3 +12,6 @@ creo la funcion "inicio" y lo importo desde urls.py
 -from mi_app.views import inicio
 -path('WebProject/', inicio)
 creo la carpeta templates y otra carpeta dentro que contiene el html con la vista de mi inicio.
+
+# Herencia
+creo el archivo .html en templates llamado 'segundavista', este hereda las propiedades del padre
