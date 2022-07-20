@@ -23,3 +23,10 @@ creo la carpeta templates y otra carpeta dentro que contiene el html con la vist
 
 # Herencia
 creo el archivo .html en templates llamado 'segundavista', este hereda las propiedades del padre
+
+# Formularios
+
+creo un archivo forms.py, importo los forms y creo una clase para Formulario.
+mofidico la vista para que reciba el api forms, en el html recibo el formulario.
+para el formulario de busqueda creo una vista, registro el url y creo un html (busquedaNombre)
+luego creeo otra vista llamada buscar
