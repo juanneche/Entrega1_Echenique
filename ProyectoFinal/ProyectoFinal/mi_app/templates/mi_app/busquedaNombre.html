@@ -1,0 +1,8 @@
+{% extends mi_app/inicio.html %}
+
+{% block cuerpo %}
+ <form action="/mi_app/buscar/" method="GET">
+   <input type="str" name="nombre" id="nombre">
+   <input type="submit" value="Buscar">
+ </form>
+{% endblock %}
